@@ -1,0 +1,98 @@
+{
+    "os": "Linux-6.14.0-29-generic-x86_64-with-glibc2.39",
+    "python": "3.10.18",
+    "heartbeatAt": "2025-11-01T14:45:30.779454",
+    "startedAt": "2025-11-01T14:45:29.464622",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--dataset",
+        "SST2",
+        "--model_name",
+        "opt-1.3b",
+        "--batch_size",
+        "8",
+        "--max_length",
+        "512",
+        "--set_pad_id"
+    ],
+    "state": "running",
+    "program": "/home/tanish/DeepLearning/llm_unlearning/inference_vanilla.py",
+    "codePathLocal": "inference_vanilla.py",
+    "codePath": "inference_vanilla.py",
+    "git": {
+        "remote": "https://github.com/karuna-bhaila/llm_unlearning.git",
+        "commit": "ddaac33c23d2d7b494772b2bacaed8ee506aa7ca"
+    },
+    "email": "Tanish.Pathania@iiitb.ac.in",
+    "root": "/home/tanish/DeepLearning/llm_unlearning",
+    "host": "ubuntu-Standard-PC-i440FX-PIIX-1996",
+    "username": "tanish",
+    "executable": "/home/tanish/miniconda3/envs/dl_proj/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2194.842,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2194.842,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2194.842,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2194.842,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2194.842,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2194.842,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2194.842,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2194.842,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2194.842,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 490.04620361328125,
+            "used": 252.30347442626953
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 15.612476348876953
+    }
+}

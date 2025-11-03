@@ -1,0 +1,1420 @@
+
+Some parameters are on the meta device because they were offloaded to the cpu.
+Map: 100%|█████████████████████████████████████████████████████████████████████████| 1425/1425 [00:00<00:00, 17163.51 examples/s]
+Map: 100%|███████████████████████████████████████████████████████████████████████████| 610/610 [00:00<00:00, 10676.40 examples/s]
+
+Map: 100%|███████████████████████████████████████████████████████████████████████| 46331/46331 [00:02<00:00, 19498.05 examples/s]
+Map: 100%|███████████████████████████████████████████████████████████████████████| 19855/19855 [00:00<00:00, 20370.44 examples/s]
+  0%|                                                                                                   | 0/5792 [00:00<?, ?it/s]
+DatasetDict({
+    train_forget: Dataset({
+        features: ['text', 'label'],
+        num_rows: 1425
+    })
+    test_forget: Dataset({
+        features: ['text', 'label'],
+        num_rows: 610
+    })
+    train_retain: Dataset({
+        features: ['text', 'label'],
+        num_rows: 46331
+    })
+    test_retain: Dataset({
+        features: ['text', 'label'],
+        num_rows: 19855
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 22%|██████████████████▎                                                                 | 1262/5792 [2:06:58<7:35:47,  6.04s/it]
+Traceback (most recent call last):
+  File "/home/tanish/DeepLearning/llm_unlearning/inference_vanilla.py", line 279, in <module>
+    main(args)
+  File "/home/tanish/DeepLearning/llm_unlearning/inference_vanilla.py", line 273, in main
+    metrics, _, _ = batched_inference(model, tokenizer, generation_config, dataset[prefix], args.batch_size, prefix)
+  File "/home/tanish/DeepLearning/llm_unlearning/inference_vanilla.py", line 213, in batched_inference
+    batch_predictions, batch_outputs = inference(
+  File "/home/tanish/DeepLearning/llm_unlearning/inference_vanilla.py", line 178, in inference
+    token_outputs = model.generate(**inputs, generation_config=generation_config)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/generation/utils.py", line 2564, in generate
+    result = decoding_method(
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/generation/utils.py", line 2787, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/models/opt/modeling_opt.py", line 818, in forward
+    outputs = self.model.decoder(
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/models/opt/modeling_opt.py", line 648, in forward
+    layer_outputs = decoder_layer(
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/models/opt/modeling_opt.py", line 255, in forward
+    hidden_states, self_attn_weights = self.self_attn(
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/models/opt/modeling_opt.py", line 160, in forward
+    query_states = self.q_proj(hidden_states) * self.scaling
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/accelerate/hooks.py", line 170, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/accelerate/hooks.py", line 360, in pre_forward
+    set_module_tensor_to_device(
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/accelerate/utils/modeling.py", line 343, in set_module_tensor_to_device
+    new_value = value.to(device, non_blocking=non_blocking)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/tanish/DeepLearning/llm_unlearning/inference_vanilla.py", line 279, in <module>
+    main(args)
+  File "/home/tanish/DeepLearning/llm_unlearning/inference_vanilla.py", line 273, in main
+    metrics, _, _ = batched_inference(model, tokenizer, generation_config, dataset[prefix], args.batch_size, prefix)
+  File "/home/tanish/DeepLearning/llm_unlearning/inference_vanilla.py", line 213, in batched_inference
+    batch_predictions, batch_outputs = inference(
+  File "/home/tanish/DeepLearning/llm_unlearning/inference_vanilla.py", line 178, in inference
+    token_outputs = model.generate(**inputs, generation_config=generation_config)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/generation/utils.py", line 2564, in generate
+    result = decoding_method(
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/generation/utils.py", line 2787, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/models/opt/modeling_opt.py", line 818, in forward
+    outputs = self.model.decoder(
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/models/opt/modeling_opt.py", line 648, in forward
+    layer_outputs = decoder_layer(
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/models/opt/modeling_opt.py", line 255, in forward
+    hidden_states, self_attn_weights = self.self_attn(
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/transformers/models/opt/modeling_opt.py", line 160, in forward
+    query_states = self.q_proj(hidden_states) * self.scaling
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/accelerate/hooks.py", line 170, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/accelerate/hooks.py", line 360, in pre_forward
+    set_module_tensor_to_device(
+  File "/home/tanish/miniconda3/envs/dl_proj/lib/python3.10/site-packages/accelerate/utils/modeling.py", line 343, in set_module_tensor_to_device
+    new_value = value.to(device, non_blocking=non_blocking)
+KeyboardInterrupt

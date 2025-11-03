@@ -1,0 +1,13 @@
+datasets
+evaluate
+peft
+scikit-learn
+torch
+torchinfo
+transformers
+trl
+bitsandbytes
+wandb
+
+# Evolutionary strategies (optional, used for ES-based prompt optimization)
+nevergrad

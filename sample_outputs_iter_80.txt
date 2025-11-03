@@ -1,0 +1,151 @@
+Examples for iter 80 (retain_acc=0.6804)
+
+--------------------------------------------------------------------------------
+Text: where their heads were
+Pred: negative | True: negative
+Gen tail: negative sentiment:
+
+--------------------------------------------------------------------------------
+Text: low-brow humor
+Pred: negative | True: negative
+Gen tail: negative sentiment:
+
+--------------------------------------------------------------------------------
+Text: as a relic from a bygone era, and its convolutions ... feel silly rather than plausible
+Pred: neutral | True: negative
+Gen tail: What is the
+
+--------------------------------------------------------------------------------
+Text: the scenes of torture and self-mutilation
+Pred: neutral | True: negative
+Gen tail: What is the
+
+--------------------------------------------------------------------------------
+Text: maryam is more timely now than ever.
+Pred: positive | True: positive
+Gen tail: positive sentiment:
+
+--------------------------------------------------------------------------------
+Text: very satisfying
+Pred: positive | True: positive
+Gen tail: positive
+
+--------------------------------------------------------------------------------
+Text: hollywood excess
+Pred: negative | True: negative
+Gen tail: negative sentiment:
+
+--------------------------------------------------------------------------------
+Text: takashi miike keeps pushing the envelope
+Pred: positive | True: positive
+Gen tail: positive sentiment:
+
+--------------------------------------------------------------------------------
+Text: is as difficult for the audience to take as it
+Pred: negative | True: negative
+Gen tail: negative sentiment:
+
+--------------------------------------------------------------------------------
+Text: your least favorite
+Pred: negative | True: negative
+Gen tail: negative
+
+--------------------------------------------------------------------------------
+Text: crazy, mixed-up films
+Pred: negative | True: negative
+Gen tail: negative
+
+--------------------------------------------------------------------------------
+Text: strangely tempting bouquet
+Pred: positive | True: positive
+Gen tail: positive sentiment:
+
+--------------------------------------------------------------------------------
+Text: seems based on ugly ideas instead of ugly behavior, as happiness was
+Pred: neutral | True: negative
+Gen tail: what is the
+
+--------------------------------------------------------------------------------
+Text: once playful and haunting, an in-depth portrait of an iconoclastic artist who was fundamentally unknowable even to his closest friends
+Pred: neutral | True: positive
+Gen tail: What is the
+
+--------------------------------------------------------------------------------
+Text: can be as tiresome as 9 seconds of jesse helms ' anti- castro
+Pred: neutral | True: negative
+Gen tail: ###
+
+--------------------------------------------------------------------------------
+Text: so devoid of pleasure or sensuality
+Pred: negative | True: negative
+Gen tail: negative sentiment:
+
+--------------------------------------------------------------------------------
+Text: 's a lovely, eerie film that casts an odd, rapt spell.
+Pred: positive | True: positive
+Gen tail: positive sentiment:
+
+--------------------------------------------------------------------------------
+Text: contrived, well-worn situations
+Pred: negative | True: negative
+Gen tail: negative
+
+--------------------------------------------------------------------------------
+Text: is if you have a case of masochism and an hour and a half to blow
+Pred: neutral | True: negative
+Gen tail: What is the
+
+--------------------------------------------------------------------------------
+Text: with no signs of life
+Pred: negative | True: negative
+Gen tail: negative sentiment:
+
+--------------------------------------------------------------------------------
+Text: that turns me into that annoying specimen of humanity that i usually dread encountering the most - the fanboy
+Pred: neutral | True: negative
+Gen tail: What is the
+
+--------------------------------------------------------------------------------
+Text: charly comes off as emotionally manipulative and sadly imitative of innumerable past love story derisions.
+Pred: neutral | True: negative
+Gen tail: What is the
+
+--------------------------------------------------------------------------------
+Text: should scare any sane person away
+Pred: negative | True: negative
+Gen tail: negative sentiment:
+
+--------------------------------------------------------------------------------
+Text: manages not only to find a compelling dramatic means of addressing a complex situation
+Pred: neutral | True: positive
+Gen tail: What is the
+
+--------------------------------------------------------------------------------
+Text: right tone
+Pred: positive | True: positive
+Gen tail: positive
+
+--------------------------------------------------------------------------------
+Text: into a gut-wrenching examination of the way cultural differences and emotional expectations collide
+Pred: neutral | True: positive
+Gen tail: what is the
+
+--------------------------------------------------------------------------------
+Text: and con, for adults
+Pred: negative | True: negative
+Gen tail: negative sentiment:
+
+--------------------------------------------------------------------------------
+Text: the only thing i laughed at were the people who paid to see it.
+Pred: negative | True: negative
+Gen tail: negative sentiment:
+
+--------------------------------------------------------------------------------
+Text: with its own cuteness
+Pred: positive | True: positive
+Gen tail: positive sentiment:
+
+--------------------------------------------------------------------------------
+Text: , sweet ` evelyn
+Pred: positive | True: positive
+Gen tail: positive sentiment:
